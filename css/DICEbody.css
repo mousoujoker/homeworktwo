@@ -2,7 +2,6 @@
 body{
 	background-color:black;
 }
-
 #headstrong{
 	width:100%;
 	margin-left:5%;
@@ -13,6 +12,11 @@ body{
 	margin-left:47.5%;
 	width:5%;
 	margin-top:6%;
+}
+#downbutton2{
+	margin-left:47.5%;
+	width:5%;
+	margin-top:60%;
 }
 #bf{
 	position:absolute;
@@ -94,15 +98,29 @@ a{
 audio{
 	width:20%;
 	position:fixed;
-	margin-top:-5%;
 }
 #ealogo{
 	position:absolute;
-	margin:65% 0 0 70%;
+	margin:36% 0 0 70%;
 	width:10%;
 }
 #dicelogo{
 	position:absolute;
-	margin:66% 0 0 82%;
+	margin:36% 0 0 82%;
 	width:15%;
+}
+video{
+	position:absolute;
+	width:60%;
+	margin-left:20%;
+	margin-top:0%;
+}
+#ad{
+	display:block;
+	width:20%;
+	margin-top:30%;
+	color:white;
+	font-size:200%;
+	font-family:arial bold;
+	margin-left:40%;
 }
