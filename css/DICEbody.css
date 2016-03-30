@@ -1,29 +1,36 @@
 @charset="utf-8";
-body{
+	body{
 	background-color:black;
-}
+	}
+@media only screen and (min-width:1024px)
+{
 #headstrong{
 	width:100%;
-	margin-left:5%;
+	margin-left:0%;
 	margin-top:8%;
 	min-width:800px;
 }
 #downbutton{
+	position:absolute;
 	margin-left:47.5%;
 	width:5%;
-	margin-top:6%;
+	margin-top:3%;
 }
 #downbutton2{
 	margin-left:47.5%;
 	width:5%;
-	margin-top:60%;
+	margin-top:75%;
+}
+.bf{
+	position:absolute;
+	width:20%;
+	margin-top:35%;
+	margin-left:10%;
+	margin-bottom:5%;
 }
 #bf{
 	position:absolute;
-	width:20%;
-	margin-top:25%;
-	margin-left:10%;
-	margin-bottom:5%;
+	width:100%;
 }
 a{
 	color:white;
@@ -35,27 +42,28 @@ a{
 	display:block;
 }
 #bftext {
+	margin-top:0px;
 	display:none;
 }
 #bftext{
-	position:absolute;
-	margin-top:25%;
-	margin-left:10%;
+position:absolute;
 	background-color:rgba(0,0,0,0.7);
-	width:12%;
-	height:45%;
-	padding:8% 0 0 8%;
+	padding:40% 27% 40% 28%;
 }
 
 #me{
 	position:absolute;
+	width:100%;}
+.me{
+	position:absolute;
 	width:20%;
-	margin-top:25%;
+	margin-top:35%;
 	margin-left:40%;
 	margin-right:40%;
 	margin-bottom:5%;
 }
 #metext{
+	margin-top:0px;
 	display:none;
 }
 .me:hover #metext{
@@ -63,23 +71,24 @@ a{
 }
 #metext{
 	position:absolute;
-	margin-top:25%;
-	margin-left:40%;
 	background-color:rgba(0,0,0,0.7);
-	width:12%;
-	height:40%;
-	color:white;
-	padding:13% 0 0 8%;
+padding:60% 38% 72% 38%;
+font-size:100%;	
 }
 #swbf{
 	position:absolute;
+	width:100%;
+	}
+.swbf{
+	position:absolute;
 	width:20%;
-	margin-top:25%;
+	margin-top:35%;
 	margin-right:10%;
 	margin-left:70%;
 	margin-bottom:5%;
 }
 #swbftext{
+	position:absolute;
 	display:none;
 }
 
@@ -88,13 +97,9 @@ a{
 }
 #swbftext{
 	position:absolute;
-	margin-top:25%;
-	margin-left:70%;
 	background-color:rgba(0,0,0,0.7);
-	width:13%;
-	height:40%;
-	padding:13% 3% 0 6%;
-	}
+	padding:60% 33% 59% 33.9%;
+}
 audio{
 	width:20%;
 	position:fixed;
@@ -122,5 +127,107 @@ video{
 	color:white;
 	font-size:200%;
 	font-family:arial bold;
-	margin-left:40%;
+	margin-left:32%;
+}
+}
+@media only screen and (max-width:1023px) and (min-width:800px)
+{
+#headstrong{
+width:100%;
+margin-left:5%;
+margin-top:8%;
+min-width:800px;
+}
+#downbutton{
+	margin-left:47.5%;
+	width:5%;
+	margin-top:15%;
+	display:none;
+}
+#downbutton2{
+	margin-left:47.5%;
+	width:5%;
+	margin-top:75%;
+	display:none;
+}
+#bf{
+	position:absolute;
+	width:20%;
+	margin-top:45%;
+	margin-left:10%;
+	margin-bottom:5%;
+}
+a{
+	color:white;
+	font-family:Microsoft YaHei;
+	font-weight:bold;
+	text-align:center;
+}
+#bftext{
+	position:absolute;
+	margin-top:45%;
+	margin-left:35%;
+	width:40%;
+}
+
+#me{
+	position:absolute;
+	width:20%;
+	margin-top:5%;
+	margin-left:10%;
+	margin-right:40%;
+	margin-bottom:5%;
+}
+#metext{
+	position:absolute;
+	margin-top:5%;
+	margin-left:35%;
+	width:12%;
+	height:45%;
+	color:white;
+}
+
+#swbf{
+	position:absolute;
+	width:20%;
+	margin-top:85%;
+	margin-right:10%;
+	margin-left:10%;
+	margin-bottom:5%;
+}
+#swbftext{
+	position:absolute;
+	margin-top:85%;
+	margin-left:35%;
+	width:25%;
+	height:40%;
+	}
+audio{
+	width:20%;
+	position:fixed;
+}
+#ealogo{
+	position:absolute;
+	margin:36% 0 0 70%;
+	width:10%;
+}
+#dicelogo{
+	position:absolute;
+	margin:36% 0 0 82%;
+	width:15%;
+}
+video{
+	position:absolute;
+	width:60%;
+	margin-left:20%;
+	margin-top:%;
+}
+#ad{
+	width:20%;
+	margin-top:130%;
+	color:white;
+	font-size:100%;
+	font-family:arial bold;
+	margin-left:35%;
+}
 }
