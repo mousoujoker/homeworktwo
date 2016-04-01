@@ -122,15 +122,14 @@ video{
 }
 #ad{
 	display:block;
-	width:20%;
 	margin-top:30%;
 	color:white;
 	font-size:200%;
 	font-family:arial bold;
-	margin-left:32%;
+	text-align:center;
 }
 }
-@media only screen and (max-width:1023px) and (min-width:800px)
+@media only screen and (max-width:1023px)
 {
 #headstrong{
 width:100%;
@@ -223,11 +222,10 @@ video{
 	margin-top:%;
 }
 #ad{
-	width:20%;
 	margin-top:130%;
 	color:white;
 	font-size:100%;
 	font-family:arial bold;
-	margin-left:35%;
+	text-align:center;
 }
 }
