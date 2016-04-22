@@ -3,16 +3,28 @@
 	<head>
 		<meta charset="utf-8">
 		  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-		  <link href="css/animate.css">
-		  <link href="css/DICEbody.css" type="text/css" rel="stylesheet">
-		  <link href="css/animate.min.css">
-		  <title>DICE</title> 
+		 <link href="css/animate.css">
+		 <link href="css/DICEbody.css" type="text/css" rel="stylesheet">
+		 <link href="css/animate.min.css">
+		 <title>DICE</title> 
+		 <script type="text/javascript" src="http://libs.useso.com/js/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+		<script type="text/javascript">
+		$(function(){
+		$(".downbuttonanime").click(function(){
+			$.scrollTo('#bf',500);
+			});
+		$(".downbuttonanime2").click(function(){
+			$.scrollTo('#ad',500);
+			});
+		});
+</script>
 	</head>
 	<body>
 		<audio src="src/Battlefield 4 _Stutter_ Theme.mp3" autoplay controls ;></audio>
 		<h1><img id=headstrong src="src/dice-logotype-white.jpg"></img></h1>
 		
-		<h2><a id=downbuttonanime href="#bf">
+		<h2><a class=downbuttonanime href="#">
 		<img id=downbutton class=bonceInDown src="src/downbutton.png"></img></a>
 		</h2>
 		
@@ -47,10 +59,10 @@
 			</div>
 			</div>
 			
-			<a id=downbuttonanime2 href="#ad"><img id=downbutton2 src="src/downbutton.png"></img></a>
+			<a class=downbuttonanime2 href="#"><img id=downbutton2 src="src/downbutton.png"></img></a>
 			<div id=avad>
 				<div id=ad>
-						<p>BATTLEFIELD&nbsp;4&nbsp;AVAILABLE&nbsp;NOW</p>
+						<p><a class=ad href="">BATTLEFIELD&nbsp;4&nbsp;AVAILABLE&nbsp;NOW<a></p>
 				</div>
 			
 			<video src="src/Battlefield-4- Official-Multiplayer-Launch-Trailer.mp4" controls autoplay;></video>
