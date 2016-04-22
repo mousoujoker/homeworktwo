@@ -1,6 +1,7 @@
 @charset="utf-8";
 body{
-background-color:black;
+margin:0 0 0 0;
+background-color:#121212;
 color:white;
 font-family:arial;
 }
@@ -10,6 +11,33 @@ font-family:arial;
 #about{
 	margin:7% 20% 0 20%;
 }
-.title{
-	font-family:170%;
+#title{
+	font-size:170%;
+	margin-left:8%;
+	margin-top:5%;
+}
+a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+#contact{
+	margin:0 8% 8% 8%;
+	background-color:gray;
+}
+#contact .list{
+	background-color:gray;
+	color:#909090;
+	margin-left:8%;
+}
+#dice{
+position:absolute;
+}
+#la{
+	position:absolute;
+	margin-left:30%;
+}
+#phone{
+	position:absolute;
+	margin-left:60%;
 }
