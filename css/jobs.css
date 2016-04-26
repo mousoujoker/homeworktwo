@@ -1,4 +1,6 @@
 @charset="utf-8";
+@media only screen and (min-width:1366px)
+{
 body{
 	color:white;
 	background-color:black;
@@ -35,6 +37,7 @@ ul{
 	padding-left:0;
 }
 li{
+	font-size:120%;
 	display:inline;
 	list-style-type:none;
 	margin-left:0;
@@ -51,4 +54,131 @@ li a:hover{
 }
 .img{
 	margin-right:30%
+}
+}
+@media only screen and (max-width:1365px) and (min-width:800px)
+{
+body{
+	color:white;
+	background-color:black;
+	font-family:arial;
+	margin-left:0;
+	margin-right:0;
+}
+h1{
+	margin:8% 0 2% 8%; 
+	font-size:250%;
+}
+p{
+	margin:0% 10% 0% 20%;
+	line-height:1.4em;
+	font-weight:bold;
+}
+#workp{
+	margin:0% 5% 0% 50%;
+	line-height:1.4em;
+	font-weight:bold;
+}
+#work{
+	position:absolute;
+	width:100%;
+}
+#work img{
+	position:absolute;
+	width:45%;
+	margin-left:3%;
+}
+h2{
+	margin:0% 0 2% 11%; 
+	font-size:220%;
+}
+.blue{position:absolute;
+	margin:11% 0 0 0;
+	background-color:#1d2527;
+	padding:13px 0 13px 0; 
+}
+ul{
+	padding-left:0;
+}
+li{
+	display:inline;
+	list-style-type:none;
+	margin-left:0;
+	margin-right:8%;	
+}
+li a{
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	text-decoration:none;
+	}
+li a:hover{
+	color:#909090;
+}
+.img{
+	margin-right:18%
+}
+}
+@media only screen and (max-width:799px)
+{
+body{
+	color:white;
+	background-color:black;
+	font-family:arial;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+}
+h1{
+	margin-left:3%;
+	font-size:320%;
+}
+p{
+	margin:0% 10% 0% 2%;
+	line-height:1.4em;
+	font-weight:bold;
+}
+#workp{
+	margin:0% 5% 0% 2%;
+	line-height:1.4em;
+	font-weight:bold;
+}
+#work{
+	width:100%;
+}
+#work img{
+	width:100%;
+}
+h2{
+	margin:0% 0 2% 11%; 
+	font-size:220%;
+}
+.blue{
+	margin:8% 0 0 0;
+	background-color:#1d2527;
+	padding:13px 0 13px 0;
+}
+ul{
+	padding-left:0;
+}
+li{
+	font-size:150%;
+	list-style-type:none;
+	margin-left:3%;
+	margin-right:8%;
+	line-height:1.2em;
+}
+li a{
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	text-decoration:none;
+	}
+li a:hover{
+	color:#909090;
+}
+.img{
+	margin-right:18%;
+	margin-left:1%;
+}
 }
